@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+header {
+  background-color: #ff9800;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+}
+
+#score-display {
+  display: flex;
+  align-items: center;
+}
+
+#score-display p {
+  margin-right: 1em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+#map-container {
+  text-align: center;
+  margin: auto;
+}
+
+#map {
+  max-width: 100%;
+}
+
+#feedback {
+  margin-bottom: 1em;
+}
+
+#river-options {
+  margin-bottom: 0; /* Elimina el margen inferior */
+}
+
+#river-options button {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: none;
+  background-color: #ff9800;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#river-options button:hover {
+  background-color: #ffcc80;
+}
+
+#end-screen {
+  display: none;
+  margin-top: 2em;
+  margin-bottom: 0; /* Elimina el margen inferior */
+  text-align: center;
+}
+
+#start-button {
+  margin-top: 1em;
+  padding: 0.5em;
+  border: none;
+  background-color: #ff9800;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#start-button:hover {
+  background-color: #ffcc80;
+}
+
+#end-screen h2 {
+  margin-bottom: 0.5em;
+}
+
+#reset-button {
+  margin-top: 1em;
+  padding: 0.5em;
+  border: none;
+  background-color: #ff9800;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#reset-button:hover {
+  background-color: #ffcc80;
+}
+
+footer {
+  background-color: #ffc107;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+
+/* Nuevas modificaciones */
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
